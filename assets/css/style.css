@@ -1,0 +1,176 @@
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: black;
+
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+p {
+  margin: 50px;
+}
+.navImg {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin: 40px;
+  background-color: black;
+}
+#contact {
+  color: white;
+  background-color: black;
+  height: 400px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+  margin: 4.8rem;
+  border: none;
+}
+.card-text {
+  width: 200px;
+  margin: 0.8rem;
+}
+.card-img-top {
+  width: 80px;
+  margin: 2.8rem;
+}
+.div1 {
+  padding-top: 30px;
+  margin: 40px;
+  /* text-align: center; */
+  /* margin: 100px; */
+}
+.div2 {
+  font-size: 10px;
+  margin: 40px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 40px;
+  margin: 40px;
+}
+hr {
+  color: white;
+}
+#page {
+  color: white;
+  height: 400px;
+  background-color: #333333;
+}
+h1 {
+  padding: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+.one {
+  padding: 0px;
+}
+hr {
+  margin-left: 50px;
+}
+span {
+  color: red;
+}
+#about {
+  height: 20px;
+  margin-top: 20px;
+  padding: 50px;
+}
+.list-group-item {
+  background-color: gainsboro;
+  padding: 3px;
+  margin-top: 3px;
+}
+#awesome {
+  background-color: gainsboro;
+}
+body {
+  background-color: white;
+}
+#mainimg {
+  right: 0;
+  -moz-border-radius: 0px 0px 0px 110px;
+  -webkit-border-radius: 0px 0px 20px 110px;
+  border-radius: 0px 0px 0px 110px;
+  float: right;
+  height: 400px;
+  width: 500px;
+}
+.bg-shape {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.bg-shape:after {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  top: -0%; /* change value as required */
+  right: -20%; /* change value as required */
+}
+.add {
+  width: 20px;
+  height: 20px;
+  color: #ccc;
+  transition: color 0.25s;
+  float: right;
+}
+.add::before {
+  content: '';
+  position: absolute;
+
+  width: 80px;
+  margin-left: -40px;
+  margin-top: -5px;
+  border-top: 10px solid;
+}
+.add::after {
+  content: '';
+  position: absolute;
+
+  height: 80px;
+  margin-left: -5px;
+  margin-top: -40px;
+  border-left: 10px solid;
+}
+h3 {
+  font-size: 20px;
+  margin: 50px;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 20px;
+  margin: 50px;
+  padding-top: 30px;
+
+}
+a {
+  color: gainsboro;
+  margin: 2.8rem;
+}
+
+#word {
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 250px;
+}
