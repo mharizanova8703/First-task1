@@ -1,3 +1,11 @@
+@font-face {
+  font-family: MarkForMC-Black;
+  src: url(assets/fonts/MarkForMC-Black.ttf);
+}
+@font-face {
+  font-family: MarkForMCNrw-Thin;
+  src: url(assets/fonts/MarkForMCNrw-Thin.ttf);
+}
 header {
   padding: 15px 6% 15px 0;
   display: flex;
@@ -50,6 +58,7 @@ li {
   margin: 2.8rem;
 }
 .div1 {
+  font-family: 'MarkForMCNrw-Thin';
   padding-top: 30px;
   margin: 40px;
   /* text-align: center; */
@@ -74,7 +83,7 @@ hr {
 }
 h1 {
   padding: 50px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'MarkForMCNrw-Thin';
   font-size: 30px;
 }
 .one {
@@ -155,15 +164,22 @@ body {
   border-left: 10px solid;
 }
 h3 {
+  font-family: 'MarkForMCNrw-Thin';
   font-size: 20px;
   margin: 50px;
   padding-top: 30px;
 }
 h2 {
+  font-family: 'MarkForMCNrw-Thin';
   font-size: 20px;
   margin: 50px;
   padding-top: 30px;
-
+}
+h4 {
+  font-family: 'MarkForMCNrw-Thin';
+  font-size: 20px;
+  margin: 50px;
+  padding-top: 10px;
 }
 a {
   color: gainsboro;
@@ -171,6 +187,34 @@ a {
 }
 
 #word {
-  font-family: 'Open Sans Condensed', sans-serif;
   height: 250px;
+}
+@media screen and (max-width: 765px) {
+  header {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .nav {
+    list-style-type: none;
+  }
+  .card {
+    width: 100%;
+    object-fit: cover;
+    flex-direction: column;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, 350px), /* min value */ 1fr /* max value */)
+    );
+    gap: 20px;
+  }
+
+  .linkContainer {
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+  }
 }
