@@ -283,12 +283,13 @@ a {
   li,
   container,
   word {
-    width: 420px;
+    width: px;
   }
   .card-text {
     font-size: 9pt;
   }
   #contact {
+    text-align: center;
     height: 900px;
     width: 100%;
     font-size: 11pt;
@@ -297,7 +298,31 @@ a {
     width: 100px;
     flex-direction: column;
   }
-  .btn {
-    justify-content: center;
+  /* .btn-light {
+    margin-left: 100px;
+  } */
+  #mainimg {
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
+  h2 {
+    margin: 50px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  #word {
+    height: 900px;
+    margin: 50px;
+    width: 300px;
+  }
+  
 }
+
+
